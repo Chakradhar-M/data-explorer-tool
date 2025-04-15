@@ -10,16 +10,14 @@ The **Data Explorer Tool** is a Python-based web application built using **Strea
 
 I have participated in over 10 Power BI data competitions. In the beginning, I used to explore datasets manually, noting down everything in a book with a pen. As I continued participating in these competitions, I realized that **data exploration** is an essential part of the process. Instead of performing this manually, I started writing Python scripts to automate the process for each competition. 
 
-One day, I came across **Streamlit** and the concept of **data apps**, and that's when I had the idea to create a tool that automates data exploration for various datasets. This tool would help me save time and would be extremely useful to anyone who wants to quickly get insights from a dataset.
+I came across **Streamlit** and the concept of **data apps**, and that's when I had the idea to create a tool that automates data exploration for various datasets. This tool would help me save time and would be extremely useful to anyone who wants to quickly get insights from a dataset.
 
 ---
 
 ## Features
 
-- **Upload a file**: Users can upload a dataset(csv/xlsx) and the tool will automatically start analyzing the data.
+- **Upload a file**: Users can upload a dataset(csv/xlsx) and start analyzing the data.
 - **Quick Data Analysis**: The tool performs basic data exploration, such as displaying column types, summary statistics, and the first few rows of the dataset.
-- **Handle Missing Values**: It offers simple solutions to identify and handle missing values.
-- **Data Type Detection**: Automatically detects data types for each column and helps you with type conversion if necessary.
 - **Intuitive Interface**: The interface is simple and user-friendly, with easy-to-understand controls for data exploration.
 
 ---
@@ -67,18 +65,7 @@ One day, I came across **Streamlit** and the concept of **data apps**, and that'
     streamlit run app.py
     ```
 
-    After running the app, open your browser and navigate to `http://localhost:8501` to start using the tool.
-
----
-
-## Example Use Case
-
-Here’s a simple example of how the tool can help:
-
-- **Step 1**: Upload a csv/xlsx file containing your data.
-- **Step 2**: The app will display the dataset's summary, including basic statistics like mean, median, and standard deviation.
-- **Step 3**: Explore the data to get an immediate understanding of its distribution and relationships.
-
+    After running the app, open your browser and start using the tool.
 
 ---
 
