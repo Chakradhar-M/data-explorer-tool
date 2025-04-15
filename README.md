@@ -36,7 +36,7 @@ I came across **Streamlit** and the concept of **data apps**, and that's when I 
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/your-username/data-explorer-tool.git
+    git clone https://github.com/Chakradhar-M/data-explorer-tool.git
     ```
 
 2. **(Optional) Create and activate a virtual environment**
