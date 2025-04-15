@@ -6,6 +6,10 @@ The **Data Explorer Tool** is a Python-based web application built using **Strea
 
 ---
 
+### Access the tool here 👉: [Click Here](https://data-explorer-tool-5ulhzorrzmzjschb5pqfmr.streamlit.app/)
+
+---
+
 ## Motivation
 
 I have participated in over 10 Power BI data competitions. In the beginning, I used to explore datasets manually, noting down everything in a book with a pen. As I continued participating in these competitions, I realized that **data exploration** is an essential part of the process. Instead of performing this manually, I started writing Python scripts to automate the process for each competition. 
