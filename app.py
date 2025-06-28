@@ -186,7 +186,7 @@ if df is not None:
         else:
             for col in cat_cols.columns:
                 st.markdown(f"**{col}**")
-                st.dataframe(df[col].value_counts().reset_index().rename(columns={"index": col, col: "Count"}))  # Show category counts
+                st.dataframe(df[col].value_counts().reset_index().rename(columns={"index": col, col: "Column"}))  # Show category counts
         st.markdown("---")
 
     # Display unique values by column
