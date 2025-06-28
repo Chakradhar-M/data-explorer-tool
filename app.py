@@ -192,7 +192,7 @@ if df is not None:
     # Display unique values by column
     if show_unique_vals:
         st.subheader("🔎 Unique Values by Column")
-        st.markdown("Displays **all** unique values for each column in a scrollable table. Useful for inspecting inconsistencies in data.")
+        st.markdown("Displays **all** unique values for each column. Useful for inspecting inconsistencies in data.")
         for col in df.columns:
             unique_vals = sorted(df[col].dropna().unique())  # Get unique values in each column
             if len(unique_vals) > 0:
