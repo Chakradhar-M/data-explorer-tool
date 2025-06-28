@@ -179,7 +179,7 @@ if df is not None:
     # Display category counts for categorical columns
     if show_category_counts:
         st.subheader("📊 Category Counts (Categorical Columns)")
-        st.markdown("Shows counts of each category in categorical columns.")
+        st.markdown("Shows counts of each value in categorical columns.")
         cat_cols = df.select_dtypes(include='object')  # Select categorical columns
         if cat_cols.shape[1] == 0:
             st.warning("No categorical columns found in the dataset.")  # Warning if no categorical columns
